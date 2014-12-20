@@ -50,11 +50,10 @@ TROUBLESHOOTING
 	The error message should tell you if it's installed or not. Install the vJoy driver if it's not there.
 	
 * Not all sticks or buttons work
-	If they look correct in the log:
-	You're vJoy configuration may be wrong. Open "Configure vJoy" and reset configuration 1, or make a new one
+	*If they look correct in the log:*
+	Your vJoy configuration may be wrong. Open "Configure vJoy" and reset configuration 1, or make a new one
 	and tell mDjiController.exe to use that configuration.
-	
-	If they are NOT correct in the log:
+	*If they are NOT correct in the log:*
 	Your controller sends in a different format, so you need to figure that out, edit the code and recompile. 
 	(A bit advanced)
 
