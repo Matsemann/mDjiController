@@ -3,8 +3,17 @@ mDjiController
  - Connect your DJI Remote Controller to your PC and use it to play simulators.
 -----------------------------------------------------------------------------
 
+
 This is a program that connects to your DJI Phantom Remote Controller (RC),
 reads the stick positions and tells Windows that position. A simplified, wannabe driver.
+
+In use:
+![](https://raw.githubusercontent.com/Matsemann/mDjiController/master/in_use.png)
+
+Here I'm flying a DJI Phantom in HELI-X5 using mDjiController. Open up the image in big version to see the controller configuration.
+
+Installation
+------------
 
 In order for it to work, the original drivers from DJI must be installed, and something called vJoy.
 
