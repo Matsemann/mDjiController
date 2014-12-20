@@ -7,10 +7,8 @@ This is a program that connects to your DJI Phantom Remote Controller (RC),
 reads the stick positions and tells Windows that position. A simplified, wannabe driver.
 
 In order for it to work, the original drivers from DJI must be installed, and something called vJoy.
-vJoy is a "virtual
 
-
-* Download mDjiController.zip
+* Download mDjiController.zip from above ( https://github.com/Matsemann/mDjiController/blob/master/mDjiController.zip?raw=true )
 * Download DJI WIN Driver Installer from here: http://www.dji.com/product/phantom-2/download
 * Download vJoy from here: http://vjoystick.sourceforge.net/site/index.php/download-a-install/72-download
 
