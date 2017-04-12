@@ -54,7 +54,7 @@ void run(char* portName, int stickId, int logging) {
 		s.WriteData(pingData, 34); // write this once in a while, otherwise it stops sending? :O
 		readResult = s.ReadData(incomingData, dataLength);
 
-		if (readResult == 76 && incomingData[0] == 0x55) { // proably positioning data
+		if (readResult == 76 && incomingData[0] == 0x55) { // probably positioning data
 			short left_vertical = littleEndiansToShort(incomingData[39], incomingData[40]);
 			short left_horizontal = littleEndiansToShort(incomingData[43], incomingData[44]);
 
@@ -95,7 +95,7 @@ int main() {
 	sprintf_s(port, "COM%d", portNr);
 
 
-	printf("Select vJoy configration (default \"1\"): ");
+	printf("Select vJoy configuration (default \"1\"): ");
 	std::getline(std::cin, in);
 	stickId = atoi(in.c_str());
 
