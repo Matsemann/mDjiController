@@ -1,6 +1,7 @@
 mDjiController
 ===============
  - Connect your DJI Remote Controller to your PC and use it to play simulators.
+ - Currently confirmed working controllers: DJI Phantom 2
 -----------------------------------------------------------------------------
 
 
