@@ -13,13 +13,13 @@
 class Joystick
 {
 private:
-	bool button;
+	bool button_1, button_2, button_3, button_4, button_5, button_6;
 	bool connected;
 	unsigned int interfaceId;
 	bool log = false;
 public:
 	Joystick(int interfaceId, int logging);
 	~Joystick();
-	void update(int l_hor, int l_ver, int r_hor, int r_ver, int btn);
+	void update(int l_hor, int l_ver, int r_hor, int r_ver, int toggle_left, int toggle_right, int camera);
 	bool isConnected() { return connected;  }
 };

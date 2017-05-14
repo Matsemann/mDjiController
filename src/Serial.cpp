@@ -10,7 +10,7 @@ Serial::Serial(char *portName)
 	//We're not yet connected
 	this->connected = false;
 
-	//Try to connect to the given port throuh CreateFile
+	//Try to connect to the given port through CreateFile
 	this->hSerial = CreateFile(portName,
 		GENERIC_READ | GENERIC_WRITE,
 		0,
@@ -19,13 +19,13 @@ Serial::Serial(char *portName)
 		FILE_ATTRIBUTE_NORMAL,
 		NULL);
 
-	//Check if the connection was successfull
+	//Check if the connection was successful
 	if (this->hSerial == INVALID_HANDLE_VALUE)
 	{
 		//If not success full display an Error
 		if (GetLastError() == ERROR_FILE_NOT_FOUND){
 
-			//Print Error if neccessary
+			//Print Error if necessary
 			printf("ERROR: Handle was not attached. Reason: %s not available.\n", portName);
 
 		}
@@ -48,7 +48,7 @@ Serial::Serial(char *portName)
 		}
 		else
 		{
-			//Define serial connection parameters for the arduino board
+			//Define serial connection parameters for the Arduino board
 			dcbSerialParams.BaudRate = 115200;
 			dcbSerialParams.ByteSize = 8;
 			dcbSerialParams.StopBits = ONESTOPBIT;
