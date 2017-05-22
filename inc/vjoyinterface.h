@@ -28,9 +28,9 @@ extern "C" {
 	These functions allow writing feeders and other applications that interface with vJoy
 	It is assumed that only one vJoy top-device (= Raw PDO) exists.
 	This top-level device can have up to 16 siblings (=top-level Reports/collections)
-	Each sibling is refered to as a "vJoy Device" and is attributed a unique Report ID (Range: 1-16).
+	Each sibling is referred to as a "vJoy Device" and is attributed a unique Report ID (Range: 1-16).
 
-	Naming convetion:
+	Naming convention:
 		VJD = vJoy Device
 		rID = Report ID
 */
@@ -45,8 +45,8 @@ VJOYINTERFACE_API PVOID	__cdecl	GetvJoySerialNumberString(void);
 
 /////	vJoy Device properties
 VJOYINTERFACE_API int	__cdecl  GetVJDButtonNumber(UINT rID);	// Get the number of buttons defined in the specified VDJ
-VJOYINTERFACE_API int	__cdecl  GetVJDDiscPovNumber(UINT rID);	// Get the number of descrete-type POV hats defined in the specified VDJ
-VJOYINTERFACE_API int	__cdecl  GetVJDContPovNumber(UINT rID);	// Get the number of descrete-type POV hats defined in the specified VDJ
+VJOYINTERFACE_API int	__cdecl  GetVJDDiscPovNumber(UINT rID);	// Get the number of discrete-type POV hats defined in the specified VDJ
+VJOYINTERFACE_API int	__cdecl  GetVJDContPovNumber(UINT rID);	// Get the number of discrete-type POV hats defined in the specified VDJ
 VJOYINTERFACE_API BOOL	__cdecl  GetVJDAxisExist(UINT rID, UINT Axis); // Test if given axis defined in the specified VDJ
 VJOYINTERFACE_API BOOL	__cdecl  GetVJDAxisMax(UINT rID, UINT Axis, LONG * Max); // Get logical Maximum value for a given axis defined in the specified VDJ
 VJOYINTERFACE_API BOOL	__cdecl  GetVJDAxisMin(UINT rID, UINT Axis, LONG * Min); // Get logical Minimum value for a given axis defined in the specified VDJ
@@ -57,7 +57,7 @@ VJOYINTERFACE_API VOID		__cdecl	RelinquishVJD(UINT rID);			// Relinquish the spe
 VJOYINTERFACE_API BOOL		__cdecl	UpdateVJD(UINT rID, PVOID pData);	// Update the position data of the specified vJoy Device.
 VJOYINTERFACE_API enum VjdStat	__cdecl	GetVJDStatus(UINT rID);			// Get the status of the specified vJoy Device.
 
-/////	Write access to vJoy Device - Modifyiers
+/////	Write access to vJoy Device - Modifiers
 // This group of functions modify the current value of the position data
 // They replace the need to create a structure of position data then call UpdateVJD
 
@@ -70,7 +70,7 @@ VJOYINTERFACE_API BOOL		__cdecl	ResetPovs(UINT rID);		// Reset all POV Switches 
 // Write data
 VJOYINTERFACE_API BOOL		__cdecl	SetAxis(LONG Value, UINT rID, UINT Axis);		// Write Value to a given axis defined in the specified VDJ 
 VJOYINTERFACE_API BOOL		__cdecl	SetBtn(BOOL Value, UINT rID, UCHAR nBtn);		// Write Value to a given button defined in the specified VDJ 
-VJOYINTERFACE_API BOOL		__cdecl	SetDiscPov(int Value, UINT rID, UCHAR nPov);	// Write Value to a given descrete POV defined in the specified VDJ 
+VJOYINTERFACE_API BOOL		__cdecl	SetDiscPov(int Value, UINT rID, UCHAR nPov);	// Write Value to a given discrete POV defined in the specified VDJ 
 VJOYINTERFACE_API BOOL		__cdecl	SetContPov(DWORD Value, UINT rID, UCHAR nPov);	// Write Value to a given continuous POV defined in the specified VDJ 
 
 } // extern "C"
