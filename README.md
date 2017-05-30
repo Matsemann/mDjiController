@@ -13,8 +13,10 @@ In use:
 
 Here I'm flying a DJI Phantom in HELI-X5 using mDjiController. Open up the image in big version to see the controller configuration.
 
-Installation
+Installation / Usage
 ------------
+
+### For a thorough guide on how to get started, see this blog post: [Using a Phantom 2 DJI Controller in AirSim](https://timebutt.github.io/static/using-a-phantom-dji-controller-in-airsim/)
 
 In order for it to work, the original drivers from DJI must be installed, and something called vJoy.
 
