@@ -18,6 +18,8 @@ Installation / Usage
 
 ### For a thorough guide on how to get started, see this blog post: [Using a Phantom 2 DJI Controller in AirSim](https://timebutt.github.io/static/using-a-phantom-dji-controller-in-airsim/)
 
+### UPDATE: Slaterbbx has added more features to this, you should also check out his fork of this here: https://github.com/slaterbbx/mDjiController
+
 In order for it to work, the original drivers from DJI must be installed, and something called vJoy.
 
 * Download mDjiController.zip from above ( https://github.com/Matsemann/mDjiController/blob/master/mDjiController.zip?raw=true )
