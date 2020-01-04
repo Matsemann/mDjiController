@@ -2,6 +2,7 @@ mDjiController
 ===============
  - Connect your DJI Remote Controller to your PC and use it to play simulators.
  - Currently confirmed working controllers: DJI Phantom 2
+ - For Mavic Mini or a Python interface, take a look at [justin97530/miniDjiController](https://github.com/justin97530/miniDjiController)
 -----------------------------------------------------------------------------
 
 
