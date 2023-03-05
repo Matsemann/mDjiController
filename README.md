@@ -21,17 +21,23 @@ reads the stick positions and tells Windows that position.
 - run main.py
 - run yor simulator
 
+
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\connect_ok.png)
+
 
 for restart game or recover drone: use camera wheel, left scroll
 
+
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\control.png)
+
 
 TROUBLESHOOTING
 ---------------
 App searching by itself for the serial port with description "DJI USB VCOM For Protocol"
 make sure your device attached via bottom Type-C connector
+
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\connect.png)
+
 
 [Tested with DCL - The game](https://store.steampowered.com/app/964570/DCL__The_Game/) 
 
@@ -42,4 +48,5 @@ make sure your device attached via bottom Type-C connector
 
 
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\preset1.png)
+
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\preset2.png)
