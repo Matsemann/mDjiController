@@ -11,10 +11,11 @@ DJI RC-N1
 This is a program that connects to your DJI Mavic 3 Remote Controller (RC-N1) as a XBox360 gamepad,
 reads the stick positions and tells Windows that position.
 
-# Installation / Usage
-	Install packages before usage:
-	- pip3 install vgamepad
-	- pip3 install pyserial
+-----------------------------------------------------------------------------
+Installation / Usage
+- Install packages before usage:
+- pip3 install vgamepad
+- pip3 install pyserial
 
 - Power on RC-N1
 - Connect via bottom type-C
@@ -32,7 +33,7 @@ for restart game or recover drone: use camera wheel, left scroll
 
 
 TROUBLESHOOTING
----------------
+-----------------------------------------------------------------------------
 App searching by itself for the serial port with description "DJI USB VCOM For Protocol"
 make sure your device attached via bottom Type-C connector
 
