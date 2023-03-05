@@ -1,7 +1,7 @@
 DJI RC-N1
 ===============
- - Connect your DJI Remote Controller to your PC and use it to play simulators.
- - Currently confirmed working controllers: DJI Mavic3 RC231
+ - Connect your DJI Remote Controller to your PC and use it to play simulators
+ - Confirmed DJI Mavic 3 RC231
  - For Mavic Mini or a Python interface, take a look at [justin97530/miniDjiController](https://github.com/justin97530/miniDjiController)
  - For DJI Mini 2 or a Python interface, take a look at [usatenko/DjiMini2RCasJoystick](https://github.com/usatenko/DjiMini2RCasJoystick)
  - For DJI Phantom 3 take a look at [mishavoloshchuk/mDjiController](https://github.com/mishavoloshchuk/mDjiController)
@@ -28,7 +28,7 @@ TROUBLESHOOTING
 App searching for the serial port with description "DJI USB VCOM For Protocol"
 make sure your device attached via bottom Type-C connector
 
-Tested with DCL - The game https://store.steampowered.com/app/964570/DCL__The_Game/
+[Tested with DCL - The game](https://store.steampowered.com/app/964570/DCL__The_Game/) 
 
     Preset:
     Mode 2
