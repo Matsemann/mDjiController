@@ -22,9 +22,10 @@ Installation / Usage
 - run main.py
 - run yor simulator
 
+<img src="C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\connect_ok.png"/>
 
-![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\connect_ok.png)
 for restart game or recover drone: use camera wheel, left scroll
+
 ![](C:\Git_repos\Dji\DJI_RC-N1_SIMULATOR_FLY_DCL\control.png)
 
 
