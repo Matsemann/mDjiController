@@ -10,7 +10,9 @@ DJI RC-N1
 
 This is a program that connects to your DJI Mavic 3 Remote Controller (RC-N1) as a XBox360 gamepad,
 reads the stick positions and tells Windows that position.
-![](DJI-RC-N1-Remote-Controller.png)
+
+<img height="400" src="DJI-RC-N1-Remote-Controller.png" width="400"/>
+
 -----------------------------------------------------------------------------
 Installation / Usage
 - Install packages before usage:
