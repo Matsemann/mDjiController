@@ -22,6 +22,8 @@ reads the stick positions and tells Windows that position.
 -----------------------------------------------------------------------------
 Installation / Usage
 - Install packages before usage:
+- dji-assistant-2-consumer-drones-series and close it after installation https://www.dji.com/downloads/softwares/dji-assistant-2-consumer-drones-series
+- python 3.9 or 3.x
 - pip3 install vgamepad
 - pip3 install pyserial
 
