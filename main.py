@@ -123,18 +123,22 @@ def send_duml(s, source, target, cmd_type, cmd_set, cmd_id, payload = None):
 
     sequence_number += 1
 
+print('app version: 3.0.0\n')
 # Open serial.
 try:
 
     result = []
     ports = serial.tools.list_ports.comports(True)
+
     for port in ports:
         try:
             print(port.description)
-            if port.description.find("DJI USB VCOM For Protocol") == 0:
+            if port.description.find("For Protocol") != -1:
                 print("found DJI USB VCOM For Protocol")
                 s = serial.Serial(port=port.name, baudrate=115200)
                 print('Opened serial port:', s.name)
+            else:
+                print("skip")
             result.append(port)
         except (OSError, serial.SerialException):
             pass
