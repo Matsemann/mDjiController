@@ -147,6 +147,11 @@ except serial.SerialException as e:
 print('\nDji RC231 emulation started...\n')
 print('\nClose terminal to stop\n')
 
+print('*******************************************************\n')
+print('* Telegram: https://t.me/DJI_RC_N1_SIMULATOR_FLY_DC   *\n')
+print('* Donate: https://www.buymeacoffee.com/ivanyakymenko  *\n')
+print('*******************************************************\n')
+
 # Process input (min 364, center 1024, max 1684) -> (min 0, center 16384, max 32768)
 def parseInput(input, name):
     output = (int.from_bytes(input, byteorder='little') - 1024) * 2 * 4096 // 165
