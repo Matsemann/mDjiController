@@ -1,5 +1,11 @@
 DJI RC-N1
 ===============
+Live support: https://t.me/DJI_RC_N1_SIMULATOR_FLY_DC
+
+Donate: https://www.buymeacoffee.com/ivanyakymenko 
+
+-----------------------------------------------------------------------------
+
  - Connect your DJI Remote Controller to your PC and use it to play simulators
  - Confirmed DJI Mavic 3 RC231
  - For Mavic Mini or a Python interface, take a look at [justin97530/miniDjiController](https://github.com/justin97530/miniDjiController)
