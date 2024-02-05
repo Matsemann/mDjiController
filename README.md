@@ -2,7 +2,12 @@ DJI RC-N1
 ===============
 Live support: https://t.me/DJI_RC_N1_SIMULATOR_FLY_DC
 
-Donate: https://www.buymeacoffee.com/ivanyakymenko 
+Donate:
+
+<img height="450" src="monoQR.jpg" width="400"/>
+
+- https://send.monobank.ua/jar/87uNmHPh5v
+- https://www.buymeacoffee.com/ivanyakymenko 
 
 -----------------------------------------------------------------------------
 Latest version V3.0.0 (26.09.2023)
