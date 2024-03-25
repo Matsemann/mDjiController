@@ -4,6 +4,8 @@ Live support: https://t.me/DJI_RC_N1_SIMULATOR_FLY_DC
 
 Donate:
 
+<img height="558" src="btc.jpg" width="400"/>
+
 <img height="450" src="monoQR.jpg" width="400"/>
 
 - https://send.monobank.ua/jar/87uNmHPh5v
